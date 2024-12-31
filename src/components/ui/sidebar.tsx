@@ -3,7 +3,7 @@
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { VariantProps, cva } from "class-variance-authority"
-import { PanelLeft } from "lucide-react"
+import { PanelLeft, MessageSquarePlus } from "lucide-react"
 
 import { useIsMobile } from "@/hooks/use-mobile"
 import { cn } from "@/lib/utils"
@@ -735,6 +735,15 @@ const SidebarMenuSubButton = React.forwardRef<
   )
 })
 SidebarMenuSubButton.displayName = "SidebarMenuSubButton"
+
+export const navigationItems = [
+  {
+    title: "Feedback",
+    href: "/feedback",
+    icon: MessageSquarePlus,
+    color: "text-purple-500",
+  },
+] as const;
 
 export {
   Sidebar,

@@ -1,6 +1,6 @@
 "use client"
 
-import { Calendar, Home, Inbox, LogOut, Search, Settings } from "lucide-react"
+import { Calendar, Home, Inbox, LogOut, Search, Settings, MessageSquarePlus } from "lucide-react"
 import { logout } from "@/app/login/actions"
 import {
   Sidebar,
@@ -42,6 +42,11 @@ const items = [
     title: "My IDS",
     url: "my-ids",
     icon: Inbox,
+  },
+  {
+    title: "Feedback",
+    url: "feedback",
+    icon: MessageSquarePlus,
   },
 ]
 
