@@ -24,24 +24,24 @@ const items = [
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
-  },
-  {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
-  },
-  {
-    title: "Search",
-    url: "#",
+    title: "Headlines",
+    url: "headlines",
     icon: Search,
   },
   {
-    title: "Settings",
-    url: "#",
+    title: "Issues",
+    url: "issues",
+    icon: Calendar,
+  },
+  {
+    title: "To Do's",
+    url: "todos",
     icon: Settings,
+  },
+  {
+    title: "My IDS",
+    url: "my-ids",
+    icon: Inbox,
   },
 ]
 
