@@ -20,7 +20,7 @@ import { Button } from "@/components/ui/button"
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
